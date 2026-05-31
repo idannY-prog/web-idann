@@ -61,12 +61,31 @@
         }
         
         .msg {
-            max-width: 70%;
-            padding: 12px 16px;
-            border-radius: 18px;
-            line-height: 1.5;
-            animation: fadeIn 0.3s ease;
-        }
+    padding: 10px 14px;
+    margin: 8px 0;
+    border-radius: 12px;
+    max-width: 75%;
+    line-height: 1.4;
+    
+    /* INI YANG BIKIN GA JADI GARIS */
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Chat user */
+.user {
+    background: #00b894;
+    color: white;
+    margin-left: auto;
+}
+
+/* Chat Veemon */
+.bot {
+    background: #e0e0e0;
+    color: #1a1a1a;
+    margin-right: auto;
+}
         
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(10px); }
