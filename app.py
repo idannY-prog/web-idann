@@ -26,6 +26,3 @@ def chat():
         balasan = f"Kamu ngetik: {pesan}. Veemon belum paham, ajarin dong."
         
     return jsonify({"reply": balasan})
-
-if __name__ == '__main__':
-    app.run(debug=True)  # <-- INI JUGA PENTING
